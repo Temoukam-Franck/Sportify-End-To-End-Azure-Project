@@ -6,10 +6,10 @@
 			"editable": true
 		}
 	},
-	"location": "northeurope",
+	"location": "germanywestcentral",
 	"identity": {
 		"type": "SystemAssigned",
-		"principalId": "4859f71f-9056-4462-a9b0-8b22b9ea3121",
+		"principalId": "6562ce91-6e24-4e80-a05d-ac7cdf18281a",
 		"tenantId": "446f43a1-1231-4ba9-bb00-2e076b052aa7"
 	}
 }
