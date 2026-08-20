@@ -12,6 +12,7 @@
 						"value": "@pipeline().parameters.loop_input",
 						"type": "Expression"
 					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "If IncrementalData",
@@ -50,11 +51,11 @@
 												"parameters": {
 													"container": "bronze",
 													"folder": {
-														"value": "@pipeline().parameters.table",
+														"value": "@item().table",
 														"type": "Expression"
 													},
 													"file": {
-														"value": "@concat(pipeline().parameters.table,' ',variables('current'))",
+														"value": "@concat(item().table,' ',variables('current'))",
 														"type": "Expression"
 													}
 												}
